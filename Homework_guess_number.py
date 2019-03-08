@@ -24,6 +24,7 @@ def more_less(player_number, computer_number):
         print("Ваше число меньше.")
 
 
+
 def main():
     """"Функция выполняет основной блок программы"""
     print('Ваша задача в этой игре - угадать загаданное компьютером число от 1 до 100')
@@ -36,7 +37,7 @@ def main():
     print('\n\nВы победили!\nЗагаданное число: ', COMPUTER_NUMBER, '\nКоличество попыток составило: ', count)
 
 
-
-#main
-main()
+if __name__ == "__main__":
+    #main
+    main()
 
